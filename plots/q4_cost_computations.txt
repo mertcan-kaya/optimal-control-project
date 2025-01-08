@@ -1,0 +1,76 @@
+Calculated with respect to 
+
+cost10 	= double(int(q1*x*x+q2*Dx*Dx+p*u*u,t,0,10))
+costInf = double(int(q1*x*x+q2*Dx*Dx+p*u*u,t,0,inf))
+costC3 = abs(Tr-2) + 100*abs(Mp)
+
+q1
+
+cost10 = 2.4361
+costInf = 2.4361
+costC3 = 19.0011
+
+q2
+
+case 1
+cost10 = 20.5972
+costInf = 20.5972
+costC3 = 5.0488
+
+case 2
+cost10 = 27.5689
+costInf = 27.5689
+costC3 = 4.7020
+
+case 3
+cost10 = 20.2383
+costInf = 20.2383
+costC3 = 1.2217
+
+case 4a
+Computed by GA with J = ISE for T = 10
+cost10 = 1.5654
+costInf = 1.5654
+costC3 = 5.2058
+
+case 4b
+Optimized by GA with J = ISE for T = Inf
+cost10 = 1.5651
+costInf = 1.5651
+costC3 = 5.2279
+
+case 5a
+Optimized by GA with J = ISEU for T = 10
+cost10 = 24.7092
+costInf = 24.7120
+costC3 = 40.0203
+
+case 5b
+Optimized by GA with J = ISEU for T = Inf
+cost10 = 25.9157
+costInf = 25.9185
+costC3 = 39.9758
+
+case 6a
+Optimized by GA with J = ITSE for T = 10
+cost10 = 1.8962
+costInf = 1.8962
+costC3 = 5.2059
+
+case 6b
+Optimized by GA with J = ITSE for T = Inf
+cost10 = 1.4559
+costInf = 1.4559
+costC3 = 5.2128
+
+case 7a
+Optimized by GA with J = QPI for T = 10
+cost10 = 8.9998e-05
+costInf = 9.0003e-05
+costC3 = 35.6886
+
+case 7b
+Optimized by GA with J = QPI for T = Inf
+cost10 = 5.5862e-05
+costInf = 5.5862e-05
+costC3 = 8.6972
